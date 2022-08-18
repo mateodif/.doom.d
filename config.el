@@ -45,9 +45,9 @@
 (setq cider-save-file-on-load t)
 
 ;; Open REPL on right v-split
-(after! cider
-  (set-popup-rules!
-    '(("^\\*cider-repl" :side right :width 0.25 :quit nil :ttl nil))))
+;; (after! cider
+;;   (set-popup-rules!
+;;     '(("^\\*cider-repl" :side right :width 0.25 :quit nil :ttl nil))))
 
 ;; Swap splits
 (setq evil-split-window-below t

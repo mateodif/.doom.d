@@ -59,6 +59,9 @@
 ;; If the process exits, kill the vterm buffer
 (setq vterm-kill-buffer-on-exit t)
 
+;; Keybinding for switching windows faster (requires ace window-select)
+(map! "M-|" #'switch-window)
+
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
 ;; `after!' block, otherwise Doom's defaults may override your settings. E.g.
 ;;

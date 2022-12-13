@@ -50,3 +50,10 @@
 ;(unpin! t)
 
 (package! minimal-theme)
+(package! plan9-theme)
+(package! twilight-bright-theme)
+(package! twilight-anti-bright-theme)
+(package! leuven-theme)
+(package! lavender-theme)
+(package! birds-of-paradise-plus-theme)
+(package! orangey-bits-theme)
